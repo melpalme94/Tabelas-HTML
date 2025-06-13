@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
+            -webkit-box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
+            -moz-box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
+            border: solid 1px gray;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+
+        table tfoot td {
+            background-color: rgb(196, 193, 193);
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+
+        table tbody tr:hover td {
+            background-color: #dbdbdb;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table width="250" align="center" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th colspan="2">Minha Tabela</th>
+            </tr>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ivan</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Barbara</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Amanda</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
