@@ -1,5 +1,5 @@
 Eu fiz uma atividade na Dio.me "Criando Tabelas com HTML"
-Esse e o codigo
+Esse e o tabela
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -7,6 +7,7 @@ Esse e o codigo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas com HTML</title>
 </head>
 
 <body>
