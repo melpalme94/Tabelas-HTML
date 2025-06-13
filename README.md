@@ -1,3 +1,6 @@
+Eu fiz uma atividade na Dio.me "Criando Tabelas com HTML"
+Esse e o codigo
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,33 +8,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
-    <style>
-        table {
-            box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
-            -webkit-box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
-            -moz-box-shadow: 16px 13px 13px 0px rgba(0, 0, 0, 0.74);
-            border: solid 1px gray;
-        }
-
-        table thead th {
-            background-color: black;
-            color: white;
-        }
-
-        table tfoot td {
-            background-color: rgb(196, 193, 193);
-        }
-
-        table tbody tr:nth-child(even) td {
-            background-color: #f1f1f1;
-        }
-
-        table tbody tr:hover td {
-            background-color: #dbdbdb;
-            cursor: pointer;
-        }
-    </style>
-
 </head>
 
 <body>
